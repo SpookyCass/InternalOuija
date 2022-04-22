@@ -13,7 +13,7 @@ var setLetter = function(x) {
 
 // pointer planchette
 $(document).mousemove(function (e) {
-	$(".pointer").css({ left: e.pageX, top: e.pageY });
+	$(".pointer").css({ left: e.pageX - 70, top: e.pageY - 80});
   });
 
 //goodbye page refresh

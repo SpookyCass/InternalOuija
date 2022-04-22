@@ -24,6 +24,10 @@ background-color: black;
 color: white;
 overflow: auto;
 font-family: Augusta;
+cursor: none;
+}
+body{
+    cursor: none;
 }
 
 h1{
@@ -74,7 +78,7 @@ a{
     top: 100px;
     width: 500px; 
     left: 50%;
-    text-align: left; 
+    align-self: left; 
     pointer-events: none;
   }
   
@@ -95,6 +99,7 @@ a{
     border: solid 5px white;
     padding:none;
     font-family: Buffalo;
+    cursor: none;
 }
 
 #yesNo{
@@ -103,6 +108,10 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    cursor: none;
+}
+.decision{
+    cursor: none;
 }
 
 #box{
@@ -114,6 +123,7 @@ a{
     margin: 0;
     padding-right: 20px;
     padding-left: 20px;
+    cursor: none;
 }
 
 #goodbye{
@@ -122,6 +132,7 @@ a{
     justify-content: space-around;
     align-items: center;
     margin: 0;
+    cursor: none;
 }
 #refresh{
     font-size: 60px;
@@ -131,6 +142,7 @@ a{
     color: white;
     display: inline-block;
     font-family: Buffalo;
+    cursor: none;
 }
 
 #letters{
@@ -142,9 +154,7 @@ a{
     display: inline-block;
     font-size: 68px;
     font-family: Buffalo;
-}
-#letters:hover{
-    cursor: pointer;
+    cursor: none;
 }
 
 #display{
@@ -174,6 +184,7 @@ a{
     color: white;
     font-family: Buffalo;
     margin: auto;
+    cursor: pointer;
 }
 
 #back{
