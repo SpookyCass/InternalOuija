@@ -16,7 +16,7 @@
 }
 
 :root{
-    --board: rgb(108, 136, 158);
+    --board: rgb(73, 104, 150);
 }
 
 html{
@@ -25,6 +25,8 @@ color: white;
 overflow: auto;
 font-family: Augusta;
 cursor: none;
+background-image: url("../assets/background-1.png");
+background-repeat: repeat;
 }
 body{
     cursor: none;
@@ -34,11 +36,27 @@ h1{
     margin: auto;
     text-align: center;
     font-Size:50px;
+    padding-top:.5em;
 }
 
 h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+}
+.nav{
+    text-align: center;
+    margin: auto;
+    border: white solid 2pt;
+    font-size: 19pt;
+    padding: 5px;
+}
+.nav1{
+    text-align: center;
+    margin: auto;
+    border: white solid 2pt;
+    font-size: 19pt;
+    transform: translateY(-450px);
+    padding: 5px;
 }
 
 #instruction{
@@ -86,6 +104,29 @@ a{
     width: 140px;
   }
   /* pointer above */
+.about{
+    max-width:900px;
+    text-align:center;
+    margin: auto;
+    align-content: center;
+    font-size: 22pt;
+
+}
+#about-cursor{
+    cursor: pointer;
+}
+.big-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 81%;
+}
+.big-box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    max-width:80%;
+}
 
 #board{
     display: flex;
