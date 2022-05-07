@@ -9,6 +9,9 @@ I started with some rough sketches of the layout I was thinking.
 ![PXL_20220422_031818686](https://user-images.githubusercontent.com/90733817/164592978-f4ac80ae-4990-4472-96bd-fc94f5609a5a.jpg)
 ![PXL_20220422_031805941](https://user-images.githubusercontent.com/90733817/164593003-957ee91c-8f2c-4b13-a4b7-03b73ef5ff2f.jpg)
 As seen in the second photo, I planned out how I would use flex boxes to get the layout I wanted, as well as color ideas and art I would include.
+![divination-ss](https://user-images.githubusercontent.com/90733817/167240498-f37c0e84-4efc-4bc9-9398-bfd94b4c24bc.jpg)
+I came to make a more interesting background that hopefully doesn't distract too much from the main content of this tool, I also added and about page that explains my board compared to traditional Ouija boards, and a bit about why I made it.
+
 
 ## Challenges
 I used javaScript to make the letters be clickable buttons, but had to do research to learn how to do this in a more efficient way than making an individual button for each letter, so I figured out how to do this in my code through trial and error as well as the research. I wanted the planchette circle to be right where the mouse is so it clicks on the letter inside of the circle, but I couldn't figure out how to adjust the positioning there, something I need to get back to later. I did that with javaScript code as well and am still struggling. With the layout, I worked it out using flexboxes to make the board with html and css rather than just importing a picture and using mapping, which I considered, but think that would've been harder.
